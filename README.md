@@ -1,6 +1,6 @@
 # Análise de Tráfego de Rede: Incidente de DNS
 
-Bem-vindo(a) ao meu repositório! Este projeto faz parte do meu portfólio de Cibersegurança e foi desenvolvido durante o curso **Google Cybersecurity Professional Certificate** no Coursera. 
+Este projeto faz parte do meu portfólio de Cibersegurança e foi desenvolvido durante o curso **Google Cybersecurity Professional Certificate** no Coursera. 
 
 Aqui, assumo o papel de um Analista de Segurança Cibernética investigando uma falha de conexão usando a análise de pacotes de rede.
 
@@ -23,6 +23,8 @@ Minha missão foi investigar o tráfego de rede para descobrir exatamente onde a
 ## A Investigação
 
 Para entender o que estava acontecendo, utilizei o `tcpdump` para capturar os pacotes de rede enquanto tentava acessar o site. 
+<img width="1001" height="474" alt="image" src="https://github.com/user-attachments/assets/acac2d31-524b-4f97-a885-3638442d6bc1" />
+
 
 Ao analisar os logs gerados, observei o seguinte fluxo:
 1. **Requisição:** Meu computador enviou uma consulta DNS através de um pacote **UDP** para o IP do servidor DNS, visando a **porta 53** (porta padrão para tráfego DNS).
